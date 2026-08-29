@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoDisableADB</string>
+    <string name="app_subtitle">自動關閉開發人員選項</string>
+    <string name="language_toggle">EN</string>
+    <string name="language_toggle_desc">切換為英文</string>
+
+    <string name="section_monitor">自動關閉</string>
+    <string name="monitor_enabled">啟用自動關閉</string>
+    <string name="monitor_hint">開啟指定應用程式時，關閉開發人員選項與 USB 偵錯</string>
+    <string name="restore_enabled">離開後自動還原</string>
+    <string name="restore_hint">離開目標應用程式後，還原開發人員選項與 USB 偵錯</string>
+    <string name="hide_launcher">從應用程式列表隱藏圖示</string>
+    <string name="hide_launcher_hint">隱藏後請從下拉快捷設定開啟本應用程式，或使用開發人員選項／USB 偵錯圖塊</string>
+    <string name="hide_launcher_hint_on">已隱藏圖示。請把 %1$s 加到下拉快速設定，之後從那裡開啟。</string>
+
+    <string name="section_targets">目標應用程式</string>
+    <string name="targets_empty">尚未指定應用程式。請從清單選擇，或手動輸入套件名稱。</string>
+    <string name="hint_package">套件名稱，例如 com.example.bank</string>
+    <string name="add">新增</string>
+    <string name="pick_app">選擇已安裝應用程式</string>
+    <string name="pick_app_title">選擇應用程式</string>
+    <string name="search_apps">搜尋應用程式</string>
+    <string name="no_apps_found">找不到符合的應用程式</string>
+    <string name="remove">移除</string>
+    <string name="invalid_package">請輸入有效的套件名稱</string>
+    <string name="package_added">已新增 %1$s</string>
+    <string name="package_exists">這個應用程式已在清單中</string>
+
+    <string name="section_permissions">必要權限</string>
+    <string name="usage_access_title">使用情況存取權</string>
+    <string name="status_on">已開啟</string>
+    <string name="status_off">未開啟</string>
+    <string name="open_usage_access">前往設定</string>
+    <string name="battery_title">電池最佳化</string>
+    <string name="battery_ok">已排除</string>
+    <string name="battery_restricted">仍受限制（Samsung 請再排除休眠）</string>
+    <string name="open_battery">排除限制</string>
+    <string name="write_secure_title">WRITE_SECURE_SETTINGS</string>
+    <string name="write_secure_granted">已授權</string>
+    <string name="write_secure_missing">尚未授權（需用 ADB 一次）</string>
+    <string name="adb_command">adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="copy_adb">複製 ADB 指令</string>
+    <string name="adb_copied">已複製到剪貼簿</string>
+    <string name="adb_help">以 USB 連接手機後，在電腦執行上方指令，只需授權一次。部分品牌需先在開發人員選項關閉「權限監控」。</string>
+
+    <string name="tile_developer_options">開發人員選項</string>
+    <string name="tile_usb_debugging">USB 偵錯</string>
+    <string name="qs_tiles_hint">在下拉快捷設定新增「開發人員選項」與「USB 偵錯」圖塊，即可手動開關。</string>
+    <string name="section_status">系統狀態</string>
+    <string name="dev_options_on">開發人員選項：開啟</string>
+    <string name="dev_options_off">開發人員選項：關閉</string>
+    <string name="adb_on">USB 偵錯：開啟</string>
+    <string name="adb_off">USB 偵錯：關閉</string>
+    <string name="disable_now">立即關閉</string>
+    <string name="enable_now">立即開啟</string>
+    <string name="need_write_secure">請先以 ADB 授予 WRITE_SECURE_SETTINGS</string>
+    <string name="need_usage_access">請先開啟使用情況存取權</string>
+    <string name="need_targets">請先新增至少一個目標應用程式</string>
+    <string name="toast_disabled_manual">已關閉開發人員選項</string>
+    <string name="toast_enabled_manual">已開啟開發人員選項</string>
+    <string name="last_action_none">尚無自動操作紀錄</string>
+    <string name="last_action">上次：%1$s</string>
+
+    <string name="notification_channel">監控服務</string>
+    <string name="notification_title">AutoDisableADB</string>
+    <string name="notification_text">正在監控目標應用程式</string>
+
+    <string name="fgs_special_use">在指定應用程式開啟時套用本機開發人員選項設定。</string>
+
+    <string name="how_it_works">設定步驟：以 ADB 授予權限、開啟使用情況存取權、排除電池限制，然後新增目標應用程式並啟用自動關閉。</string>
+</resources>

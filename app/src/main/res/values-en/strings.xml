@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoDisableADB</string>
+    <string name="app_subtitle">Automatically disable Developer options</string>
+    <string name="language_toggle">繁中</string>
+    <string name="language_toggle_desc">Switch to Traditional Chinese</string>
+
+    <string name="section_monitor">Auto disable</string>
+    <string name="monitor_enabled">Enable auto disable</string>
+    <string name="monitor_hint">Turn off Developer options and USB debugging when a selected app comes to the foreground</string>
+    <string name="restore_enabled">Restore after leaving</string>
+    <string name="restore_hint">Restore Developer options and USB debugging after leaving the target app</string>
+    <string name="hide_launcher">Hide icon from the app list</string>
+    <string name="hide_launcher_hint">After hiding, open this app from Quick Settings</string>
+    <string name="hide_launcher_hint_on">Icon hidden. Add %1$s to Quick Settings, then open it from there.</string>
+
+    <string name="section_targets">Target apps</string>
+    <string name="targets_empty">No apps selected yet. Choose from the list, or enter a package name.</string>
+    <string name="hint_package">Package name, e.g. com.example.bank</string>
+    <string name="add">Add</string>
+    <string name="pick_app">Choose installed app</string>
+    <string name="pick_app_title">Choose app</string>
+    <string name="search_apps">Search apps</string>
+    <string name="no_apps_found">No matching apps</string>
+    <string name="remove">Remove</string>
+    <string name="invalid_package">Enter a valid package name</string>
+    <string name="package_added">Added %1$s</string>
+    <string name="package_exists">This app is already in the list</string>
+
+    <string name="section_permissions">Required permissions</string>
+    <string name="usage_access_title">Usage access</string>
+    <string name="status_on">On</string>
+    <string name="status_off">Off</string>
+    <string name="open_usage_access">Open settings</string>
+    <string name="battery_title">Battery optimization</string>
+    <string name="battery_ok">Unrestricted</string>
+    <string name="battery_restricted">Still restricted (on Samsung, also exclude from sleeping apps)</string>
+    <string name="open_battery">Allow unrestricted</string>
+    <string name="write_secure_title">WRITE_SECURE_SETTINGS</string>
+    <string name="write_secure_granted">Granted</string>
+    <string name="write_secure_missing">Not granted (one-time ADB command required)</string>
+    <string name="adb_command">adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="copy_adb">Copy ADB command</string>
+    <string name="adb_copied">Copied to clipboard</string>
+    <string name="adb_help">Connect the phone over USB, then run the command above on your computer. This is only needed once. On some devices, turn off permission monitoring in Developer options first.</string>
+
+    <string name="tile_developer_options">Developer options</string>
+    <string name="tile_usb_debugging">USB debugging</string>
+    <string name="qs_tiles_hint">Add the Developer options and USB debugging tiles in Quick Settings to toggle them manually.</string>
+    <string name="section_status">System status</string>
+    <string name="dev_options_on">Developer options: on</string>
+    <string name="dev_options_off">Developer options: off</string>
+    <string name="adb_on">USB debugging: on</string>
+    <string name="adb_off">USB debugging: off</string>
+    <string name="disable_now">Turn off now</string>
+    <string name="enable_now">Turn on now</string>
+    <string name="need_write_secure">Grant WRITE_SECURE_SETTINGS with ADB first</string>
+    <string name="need_usage_access">Enable usage access first</string>
+    <string name="need_targets">Add at least one target app first</string>
+    <string name="toast_disabled_manual">Developer options turned off</string>
+    <string name="toast_enabled_manual">Developer options turned on</string>
+    <string name="last_action_none">No automatic actions yet</string>
+    <string name="last_action">Last: %1$s</string>
+
+    <string name="notification_channel">Monitor service</string>
+    <string name="notification_title">AutoDisableADB</string>
+    <string name="notification_text">Monitoring target apps</string>
+    <string name="fgs_special_use">Monitors selected apps and applies a local developer-options preference.</string>
+
+    <string name="how_it_works">Setup: grant permission with ADB, enable usage access, exclude battery restrictions, then add target apps and turn on auto disable.</string>
+</resources>
