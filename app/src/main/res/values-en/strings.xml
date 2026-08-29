@@ -65,7 +65,6 @@
     <string name="notification_channel">Monitor service</string>
     <string name="notification_title">AutoDisableADB</string>
     <string name="notification_text">Monitoring target apps</string>
-    <string name="fgs_special_use">Monitors selected apps and applies a local developer-options preference.</string>
 
     <string name="how_it_works">Setup: grant permission with ADB, enable usage access, exclude battery restrictions, then add target apps and turn on auto disable.</string>
 </resources>

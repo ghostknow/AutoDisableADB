@@ -66,7 +66,7 @@
     <string name="notification_title">AutoDisableADB</string>
     <string name="notification_text">正在監控目標應用程式</string>
 
-    <string name="fgs_special_use">在指定應用程式開啟時套用本機開發人員選項設定。</string>
+    <string name="fgs_special_use" translatable="false">在指定應用程式開啟時套用本機開發人員選項設定。</string>
 
     <string name="how_it_works">設定步驟：以 ADB 授予權限、開啟使用情況存取權、排除電池限制，然後新增目標應用程式並啟用自動關閉。</string>
 </resources>
